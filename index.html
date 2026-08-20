@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>علم الأرض والفضاء 360° | لوحة المعلمة</title>
+<style>
+:root{--bg:#071b25;--panel:#0d2733;--panel2:#123744;--ink:#effcff;--muted:#a8c8cf;--teal:#31d4bd;--blue:#58a8ff;--gold:#ffc85a;--danger:#ff6b77;--line:#204956}
+*{box-sizing:border-box}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:radial-gradient(circle at 50% -10%,#154d5d 0,#071b25 42%);color:var(--ink);min-height:100vh}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(#fff8 1px,transparent 1px);background-size:42px 42px;opacity:.08}
+.wrap{max-width:1180px;margin:auto;padding:18px}.hero{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px;border:1px solid var(--line);background:#0b2631cc;border-radius:24px;backdrop-filter:blur(8px)}
+h1{margin:0;font-size:clamp(26px,5vw,42px)}.sub{color:var(--muted);margin-top:7px}.planet{font-size:52px}
+.card{background:#0d2733e8;border:1px solid var(--line);border-radius:20px;padding:18px;margin-top:14px}.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+select,input,button,textarea{font:inherit}select,input,textarea{background:#071b25;color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:12px}
+select{min-width:260px}.grow{flex:1}.btn{border:0;border-radius:12px;padding:12px 14px;font-weight:800;cursor:pointer;background:var(--teal);color:#05201d}.btn.alt{background:var(--blue);color:#04192a}.btn.gold{background:var(--gold);color:#2b2000}.btn.danger{background:var(--danger);color:white}.btn.ghost{background:#173c48;color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px}.stat{background:#0a202a;border:1px solid var(--line);border-radius:16px;padding:14px;text-align:center}.stat b{display:block;font-size:24px}
+.tablewrap{overflow:auto;margin-top:12px}table{width:100%;border-collapse:collapse;min-width:780px}th,td{padding:12px 10px;border-bottom:1px solid #183d49;text-align:right}th{color:#9feade}.name{font-weight:800}.pill{display:inline-block;padding:5px 9px;border-radius:999px;background:#173d49;color:#bdeef0;font-size:12px}
+.stamps{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px}.stamp{border:1px solid var(--line);background:#0a202a;color:var(--ink);border-radius:14px;padding:11px;cursor:pointer;text-align:center}.stamp:hover{border-color:var(--teal)}.stamp b{display:block}.stamp small{color:var(--muted)}
+.login{max-width:460px;margin:10vh auto}.hide{display:none!important}.notice{padding:10px 12px;border-radius:12px;background:#102f3b;color:#b9dfe5;margin-top:10px}.studentBox{margin-top:14px;padding:14px;border:1px solid var(--line);border-radius:16px;background:#09212b}
+.actions{display:flex;gap:6px;flex-wrap:wrap}.mono{direction:ltr;text-align:left;font-family:monospace}.foot{color:#86a9b1;text-align:center;padding:22px;font-size:13px}
+@media(max-width:760px){.grid{grid-template-columns:repeat(2,1fr)}.hero{align-items:flex-start}.planet{font-size:36px}.stamps{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<script>window.EARTH360_DATA = {"teacherName": "ريهام قدري", "teacherEmail": "rhmh6460@gmail.com", "classes": {"iskan": {"label": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "students": ["أحلام حسين ابن علي سحاري", "أرجوان بنت احمد بن محمد بن عبدالله شيعاني", "أصالة عبده بن محمد شراحيلي", "أفنان بنت سلمان بن كرم بن جابر الجابري", "أماني علي محمد السحاري", "أمل جابر يحي العبدلي", "أميرة أحمد علي حسن شراحيلي", "أميره علي محمد السحاري", "ابتسام علي مسعود غزواني", "ابتسام محمد عبده سحاري", "احلام محمد علي شراحيلي", "اسراء عقيل علي شاعري", "اسماء عبدالله جابر سحاري", "الجوري خالد بن جابر شراحيلي", "الجوري موسى يحي مباركي", "العنود علي احمد شراحيلي", "الهام محمد علي مجممي", "الهنوف احمد شبيلي شراحيلي", "ايماني عبده بن عبدالله كعبي", "امل علي عبدالله شراحيلي", "امنه سلمان جبران اللغبي", "اميره أحمد علي شراحيلي", "اهداء حسن يحي هزازي", "ايناس محمد جابر خبراني", "بتول يحي بن شوعي شراحيلي", "بشرى محمد عبدالله سحاري", "تهاني فرحان مبروك صفحي", "تهاني محمد عبده شراحيلي", "جوري عبدالله بن عيسى شراحيلي", "جيهان متعب يحي دغريري", "حنين بنت عبدالرحمن بن محمد شراحيلي", "راضية حسن جبران اللغبي", "غسق عقيل علي شاعري", "كوثر حسين ابن علي سحاري"]}, "jamila": {"label": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "students": ["أماني بنت يحيى بن قاسم بن علي سفياني", "اشراق بنت عيسى بن علي السلمي", "امل احمد محمد حدادي", "امل بنت صالح بن حسن العطيفي", "حنان بنت احمد ابن محمد سفياني", "رهف بنت عيسى بن يحي هزازي", "روابي بنت أحمد بن محمد بن جابر سفياني", "زهره حسن علي السفياني", "ساره محمد حسين شوعي", "شامخه بنت علي بن مفرح بن علي القيسي", "صالحة يحي بن شار بكري", "صينيه بنت صالح بن محمد القيسي", "عائشة احمد محمد حدادي", "عفاف بنت يحي بن قاسم علي سفياني", "فاطمة احمد محمد حدادي", "نورة محمد حسين شوعي"]}}, "students": [{"id": "iskan-01", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "أحلام حسين ابن علي سحاري"}, {"id": "iskan-02", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "أرجوان بنت احمد بن محمد بن عبدالله شيعاني"}, {"id": "iskan-03", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "أصالة عبده بن محمد شراحيلي"}, {"id": "iskan-04", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "أفنان بنت سلمان بن كرم بن جابر الجابري"}, {"id": "iskan-05", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "أماني علي محمد السحاري"}, {"id": "iskan-06", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "أمل جابر يحي العبدلي"}, {"id": "iskan-07", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "أميرة أحمد علي حسن شراحيلي"}, {"id": "iskan-08", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "أميره علي محمد السحاري"}, {"id": "iskan-09", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "ابتسام علي مسعود غزواني"}, {"id": "iskan-10", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "ابتسام محمد عبده سحاري"}, {"id": "iskan-11", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "احلام محمد علي شراحيلي"}, {"id": "iskan-12", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "اسراء عقيل علي شاعري"}, {"id": "iskan-13", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "اسماء عبدالله جابر سحاري"}, {"id": "iskan-14", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "الجوري خالد بن جابر شراحيلي"}, {"id": "iskan-15", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "الجوري موسى يحي مباركي"}, {"id": "iskan-16", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "العنود علي احمد شراحيلي"}, {"id": "iskan-17", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "الهام محمد علي مجممي"}, {"id": "iskan-18", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "الهنوف احمد شبيلي شراحيلي"}, {"id": "iskan-19", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "ايماني عبده بن عبدالله كعبي"}, {"id": "iskan-20", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "امل علي عبدالله شراحيلي"}, {"id": "iskan-21", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "امنه سلمان جبران اللغبي"}, {"id": "iskan-22", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "اميره أحمد علي شراحيلي"}, {"id": "iskan-23", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "اهداء حسن يحي هزازي"}, {"id": "iskan-24", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "ايناس محمد جابر خبراني"}, {"id": "iskan-25", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "بتول يحي بن شوعي شراحيلي"}, {"id": "iskan-26", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "بشرى محمد عبدالله سحاري"}, {"id": "iskan-27", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "تهاني فرحان مبروك صفحي"}, {"id": "iskan-28", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "تهاني محمد عبده شراحيلي"}, {"id": "iskan-29", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "جوري عبدالله بن عيسى شراحيلي"}, {"id": "iskan-30", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "جيهان متعب يحي دغريري"}, {"id": "iskan-31", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "حنين بنت عبدالرحمن بن محمد شراحيلي"}, {"id": "iskan-32", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "راضية حسن جبران اللغبي"}, {"id": "iskan-33", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "غسق عقيل علي شاعري"}, {"id": "iskan-34", "classId": "iskan", "classLabel": "ثانوية إسكان روان – الفصل 1", "school": "ثانوية إسكان روان – مسارات", "name": "كوثر حسين ابن علي سحاري"}, {"id": "jamila-01", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "أماني بنت يحيى بن قاسم بن علي سفياني"}, {"id": "jamila-02", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "اشراق بنت عيسى بن علي السلمي"}, {"id": "jamila-03", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "امل احمد محمد حدادي"}, {"id": "jamila-04", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "امل بنت صالح بن حسن العطيفي"}, {"id": "jamila-05", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "حنان بنت احمد ابن محمد سفياني"}, {"id": "jamila-06", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "رهف بنت عيسى بن يحي هزازي"}, {"id": "jamila-07", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "روابي بنت أحمد بن محمد بن جابر سفياني"}, {"id": "jamila-08", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "زهره حسن علي السفياني"}, {"id": "jamila-09", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "ساره محمد حسين شوعي"}, {"id": "jamila-10", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "شامخه بنت علي بن مفرح بن علي القيسي"}, {"id": "jamila-11", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "صالحة يحي بن شار بكري"}, {"id": "jamila-12", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "صينيه بنت صالح بن محمد القيسي"}, {"id": "jamila-13", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "عائشة احمد محمد حدادي"}, {"id": "jamila-14", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "عفاف بنت يحي بن قاسم علي سفياني"}, {"id": "jamila-15", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "فاطمة احمد محمد حدادي"}, {"id": "jamila-16", "classId": "jamila", "classLabel": "ثانوية جميلة الأنصارية – الفصل 1", "school": "ثانوية جميلة الأنصارية لتعليم الكبار بالعارضة – مسارات", "name": "نورة محمد حسين شوعي"}]};</script>
+<div class="wrap">
+<div id="login" class="login card">
+  <div style="font-size:42px">🌍🪐🚀</div>
+  <h1 style="font-size:30px">علم الأرض والفضاء 360°</h1>
+  <p class="sub">دخول لوحة المعلمة</p>
+  <input id="email" class="grow" style="width:100%" placeholder="بريد المعلمة">
+  <button id="loginBtn" class="btn" style="width:100%;margin-top:10px">دخول</button>
+  <div id="loginMsg" class="notice hide"></div>
+</div>
+
+<div id="app" class="hide">
+  <section class="hero">
+    <div><h1>🌍 علم الأرض والفضاء 360°</h1><div class="sub">لوحة المعلمة: <b id="teacher"></b> • أفهمها • أكتشفها • أستكشفها • أوظفها</div></div>
+    <div class="planet">🌎✨</div>
+  </section>
+
+  <section class="card">
+    <div class="row">
+      <select id="classSelect"></select>
+      <input id="search" class="grow" placeholder="ابحثي باسم الطالبة">
+      <button class="btn alt" id="copyClass">نسخ روابط الفصل</button>
+      <button class="btn ghost" id="exportBtn">تصدير نسخة احتياطية</button>
+      <label class="btn ghost" style="cursor:pointer">استيراد نسخة<input id="importFile" type="file" accept=".json" hidden></label>
+    </div>
+    <div class="grid">
+      <div class="stat"><b id="studentCount">0</b>طالبة</div>
+      <div class="stat"><b id="stampTotal">0</b>ختم مستحق</div>
+      <div class="stat"><b id="pointTotal">0</b>نقطة إجمالية</div>
+      <div class="stat"><b id="activeCount">0</b>طالبة لديها إنجاز</div>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="tablewrap"><table><thead><tr><th>الطالبة</th><th>الأختام</th><th>النقاط</th><th>المستوى</th><th>إدارة</th></tr></thead><tbody id="tbody"></tbody></table></div>
+  </section>
+  <div class="foot">إعداد المعلمة: ريهام قدري • علم الأرض والفضاء 360°</div>
+</div>
+</div>
+<script>
+const D=window.EARTH360_DATA, KEY='earth360_v1_state';
+const $=id=>document.getElementById(id);
+let state=JSON.parse(localStorage.getItem(KEY)||'{}');
+function save(){localStorage.setItem(KEY,JSON.stringify(state))}
+function rec(id){if(!state[id])state[id]={events:[]}; return state[id]}
+function awarded(id){return rec(id).events.filter(e=>!e.deleted)}
+function stats(id){let a=awarded(id), pts=a.length*5, level=pts>=150?'خبيرة علم الأرض والفضاء 360°':pts>=100?'خبيرة':pts>=50?'متمكنة':'مستكشفة';return {n:a.length,pts,level}}
+function studentUrl(id){return new URL('student.html?id='+encodeURIComponent(id),location.href).href}
+function esc(s){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+$('teacher').textContent=D.teacherName;
+for(const [id,c] of Object.entries(D.classes)){let o=document.createElement('option');o.value=id;o.textContent=c.label; $('classSelect').appendChild(o)}
+function render(){
+ const cls=$('classSelect').value,q=$('search').value.trim();
+ let list=D.students.filter(s=>s.classId===cls && (!q||s.name.includes(q)));
+ $('studentCount').textContent=D.students.filter(s=>s.classId===cls).length;
+ let ts=0,tp=0,ac=0; D.students.filter(s=>s.classId===cls).forEach(s=>{let x=stats(s.id);ts+=x.n;tp+=x.pts;if(x.n)ac++});
+ $('stampTotal').textContent=ts;$('pointTotal').textContent=tp;$('activeCount').textContent=ac;
+ $('tbody').innerHTML=list.map(s=>{let x=stats(s.id);return `<tr><td class="name">${esc(s.name)}<br><span class="pill">${esc(s.classLabel)}</span></td><td>${x.n}</td><td>${x.pts}</td><td>${x.level}</td><td><div class="actions"><button class="btn gold" onclick="openStudent('${s.id}')">منح ختم</button><button class="btn alt" onclick="copyLink('${s.id}')">نسخ الرابط</button><button class="btn danger" onclick="undoLast('${s.id}')">حذف آخر ختم</button></div><div id="box-${s.id}"></div></td></tr>`}).join('');
+}
+window.openStudent=id=>{
+ const s=D.students.find(x=>x.id===id), box=$('box-'+id); if(!box)return;
+ const options=[['أفهمها','أتقنتُها','🧠'],['أكتشفها','اكتشفتُها','🔭'],['أستكشفها','استكشفتُها','🌋'],['أوظفها','وظفتُها','🚀']];
+ box.innerHTML=`<div class="studentBox"><b>${esc(s.name)}</b><div class="stamps">${options.map(o=>`<button class="stamp" onclick="award('${id}','${o[0]}','${o[1]}')"><b>${o[2]} ${o[0]}</b><small>${o[1]} • 5 نقاط</small></button>`).join('')}</div><input id="note-${id}" style="width:100%;margin-top:8px" placeholder="ملاحظة اختيارية"></div>`
+}
+window.award=(id,station,stamp)=>{
+ let note=$('note-'+id)?.value||'';
+ rec(id).events.push({station,stamp,note,date:new Date().toISOString(),deleted:false});save();render()
+}
+window.undoLast=id=>{let ev=rec(id).events;for(let i=ev.length-1;i>=0;i--){if(!ev[i].deleted){ev[i].deleted=true;break}}save();render()}
+window.copyLink=async id=>{await navigator.clipboard.writeText(studentUrl(id));alert('تم نسخ رابط الطالبة')}
+$('copyClass').onclick=async()=>{let cls=$('classSelect').value;let text=D.students.filter(s=>s.classId===cls).map(s=>`${s.name}\n${studentUrl(s.id)}`).join('\n\n');await navigator.clipboard.writeText(text);alert('تم نسخ روابط الفصل كاملة')}
+$('exportBtn').onclick=()=>{let b=new Blob([JSON.stringify({version:1,state},null,2)],{type:'application/json'});let a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='earth360-backup.json';a.click()}
+$('importFile').onchange=e=>{let f=e.target.files[0];if(!f)return;let r=new FileReader();r.onload=()=>{try{let d=JSON.parse(r.result);state=d.state||{};save();render();alert('تم الاستيراد')}catch{alert('الملف غير صالح')}};r.readAsText(f)}
+$('classSelect').onchange=render;$('search').oninput=render;
+$('loginBtn').onclick=()=>{if($('email').value.replace(/\s+/g,'').toLowerCase()===D.teacherEmail.replace(/\s+/g,'').toLowerCase()){sessionStorage.setItem('earth360_login','1');$('login').classList.add('hide');$('app').classList.remove('hide');render()}else{$('loginMsg').textContent='البريد غير مطابق لبريد المعلمة.';$('loginMsg').classList.remove('hide')}}
+$('email').addEventListener('keydown',e=>{if(e.key==='Enter')$('loginBtn').click()});
+if(sessionStorage.getItem('earth360_login')==='1'){$('login').classList.add('hide');$('app').classList.remove('hide');render()}
+</script>
+</body></html>
